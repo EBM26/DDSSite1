@@ -215,4 +215,9 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+
+
+  // copyright date function
+  document.getElementById("copyYear").innerHTML = new Date().getFullYear();
+
 })();
