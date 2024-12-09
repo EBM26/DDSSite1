@@ -75,7 +75,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1 {font-size: 4rem;}
+h1 {font-size: 3.4rem;}
 h2,
 h3,
 h4,
@@ -338,7 +338,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: var(--default-color);
     font-size: 16px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -879,7 +879,7 @@ section,
 .hero {
   width: 100%;
   position: relative;
-  padding: 200px 0 0 0;
+  padding: 150px 0 0 0;
 }
 
 .hero .container {
@@ -1910,7 +1910,6 @@ section,
 --------------------------------------------------------------*/
 .contact .info-container {
   background-color: var(--accent-color);
-  height: 100%;
   padding: 20px;
 }
 
@@ -2870,3 +2869,4 @@ section,
     height: 100px;
     margin-top: -100px;
     position: relative;}
+.firstIMP{font-style: italic; color: #FFB30C;}
