@@ -75,7 +75,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1 {font-size: 3.4rem;}
+h1 {font-size: 3rem;}
 h2,
 h3,
 h4,
@@ -286,7 +286,7 @@ h6 {
 }
 
 .header .logo img {
-  max-width: 360px;
+  max-width: 15%;
 }
 
 .header .logo h1 {
@@ -377,6 +377,7 @@ h6 {
     visibility: visible;
     width: 100%;
   }
+
 
   .navmenu li:hover>a,
   .navmenu .active,
@@ -879,7 +880,7 @@ section,
 .hero {
   width: 100%;
   position: relative;
-  padding: 150px 0 0 0;
+  padding: 140px 0 0 0;
 }
 
 .hero .container {
@@ -904,7 +905,29 @@ section,
   font-size: 20px;
 }
 
-.hero .btn-get-started {
+.nav-btn {
+  background: var(--nav-color);
+  font-family: var(--heading-font);
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 20px !important;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.nav-btn a {
+  color: var(--background-color);
+}
+
+.nav-btn:hover {
+  text-decoration: none;
+  background: var(--background-color);
+  border: 2px solid var(--nav-color);
+}
+
+.hero .btn-get-started, li.btn-get-started {
   color: var(--contrast-color);
   background: var(--nav-color);
   font-family: var(--heading-font);
@@ -1293,7 +1316,7 @@ section,
 }
 
 .services .service-item .icon i {
-  color: color-mix(in srgb, var(--heading-color), transparent 30%);
+  color: #1F586E;
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
@@ -1314,7 +1337,7 @@ section,
 }
 
 .services .service-item h3 {
-  color: color-mix(in srgb, var(--heading-color), transparent 20%);
+  color: #1F586E;
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
@@ -1327,8 +1350,9 @@ section,
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
+  color: #000;
 }
 
 .services .service-item .readmore {
@@ -2869,4 +2893,5 @@ section,
     height: 100px;
     margin-top: -100px;
     position: relative;}
-.firstIMP{font-style: italic; color: #FFB30C;}
+.firstIMP{color: #FFB30C; font-size: 3.8rem;}
+.section-title .sectionDescription{font-size: 20px; max-width: 1080px; margin: auto;}
