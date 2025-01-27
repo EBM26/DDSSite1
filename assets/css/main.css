@@ -338,7 +338,6 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--default-color);
     font-size: 16px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -2895,3 +2894,7 @@ section,
     position: relative;}
 .firstIMP{color: #FFB30C; font-size: 3.8rem;}
 .section-title .sectionDescription{font-size: 20px; max-width: 1080px; margin: auto;}
+.technical h1, .technical h3, .technical p, .technical ul li{color: #000000 !important;}
+.technical{max-width: 1200px; margin: 80px auto;}
+
+
