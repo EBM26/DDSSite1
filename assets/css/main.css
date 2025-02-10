@@ -899,7 +899,7 @@ section,
 }
 
 .hero p {
-  color:var(--background-color);
+  color: #000000;
   font-weight: 400;
   margin: 20px 0;
   font-size: 20px;
@@ -1550,11 +1550,12 @@ section,
 
 .portfolio .portfolio-content .portfolio-info h4 a {
   color: var(--heading-color);
-  transition: 0.3s;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 a:hover {
-  color: var(--accent-color);
+  color: var(--contrast-color);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-content .portfolio-info p {
@@ -1566,6 +1567,7 @@ section,
 
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
