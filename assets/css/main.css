@@ -760,7 +760,7 @@ h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: initial;
   }
 }
 
@@ -2899,5 +2899,26 @@ section,
 .technical{max-width: 1200px; margin: 80px auto;}
 .clickHere{font-weight: bold; color: var(--contrast-color);}
 .no-bullets li{list-style: none; margin-bottom: 10px;}
-.bi::before{color: var(--contrast-color);}
+.bi::before{color: #FFB30C;}
 .bi-check-circle-fill{margin-right: 5px;}
+.jotformDiv{padding: 0 38px; margin-top: -30px;}
+
+/*   My tablet CSS   */
+@media screen and (max-width: 1023px) {
+  .section-title .sectionDescription, .hero p{font-size: 18px !important;}
+  #about .section-title, #contact .section-title{padding-bottom: 20px !important;}
+}
+
+/*   My tablet CSS   */
+@media screen and (max-width: 767px) {
+  .section-title .sectionDescription{font-size: 16px !important;}
+  #hideFooter{margin-top: -20%;}
+  .mobileBlock{display: block !important; text-align: center;}
+  .hero{padding-top: 100px;}
+  h1{font-size: 2rem;}
+  .firstIMP{padding-bottom: 10px;display: inline-block;}
+  .hero .btn-get-started, .hero .btn-watch-video{font-size: 20px !important; justify-content: center; margin-top: 20px;}
+  .btn-get-started{width: 90%;}
+  .portfolio .portfolio-content .portfolio-info p{font-size: 16px;}
+  .jotformDiv{padding: 0; margin-top: 0px;}
+}
