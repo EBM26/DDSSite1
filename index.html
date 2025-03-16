@@ -22,6 +22,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -78,8 +79,24 @@
               <a href="https://www.youtube.com/watch?v=gQ9p6gMct9U" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>What's a dev shop?</span></a>
             </div>
           </div>
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img src="assets/img/GIF-2.gif" class="img-fluid" alt="">
+                <div class="col-lg-5 order-1 order-lg-2" id="animation-container">
+            <script>
+            var animation = bodymovin.loadAnimation({
+
+            container: document.getElementById('animation-container'),
+
+            path: 'js/FinalGif.json',
+
+            renderer: 'svg',
+
+            loop: true,
+
+            autoplay: true,
+
+            name: "Devonshire Animation",
+
+            });      
+        </script>            
           </div>
         </div>
       </div>
