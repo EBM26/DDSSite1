@@ -220,4 +220,21 @@
   // copyright date function
   document.getElementById("copyYear").innerHTML = new Date().getFullYear();
 
+      var nav    = document.querySelector('#myFixed');
+      var topDiv   = document.querySelector('#services');
+      var topOfNav = topDiv.offsetTop;
+    
+        function fixNav() {
+
+          if(window.scrollY >= topOfNav) {
+            nav.classList.add('show-now');
+          } else if (window.scrollY <= topOfNav) {
+            nav.classList.remove('show-now');
+          }
+        }
+
+        window.addEventListener('scroll', fixNav);
+
 })();
+
+   

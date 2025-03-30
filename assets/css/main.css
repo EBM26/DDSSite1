@@ -939,7 +939,6 @@ section,
   transition: 0.3s;
   border: 2px solid var(--default-color);
   text-align: center;
-  animation: pulse 1.3s infinite;
 }
 
 @keyframes pulse {
@@ -2900,8 +2899,12 @@ section,
 .clickHere{font-weight: bold; color: var(--contrast-color);}
 .no-bullets li{list-style: none; margin-bottom: 10px;}
 .bi::before{color: #FFB30C;}
-.bi-check-circle-fill{margin-right: 5px;}
+.bi-check-circle-fill{margin-right: 5px;} 
 .jotformDiv{padding: 0 38px; margin-top: -30px;}
+#myFixed{background: #fff; padding: 15px 0; text-align: center; display: none;} 
+#myFixed .nav-btn{animation: pulse 1.3s infinite;} 
+.show-now{display: block !important;}
+
 
 /*   My tablet CSS   */
 @media screen and (max-width: 1023px) {
