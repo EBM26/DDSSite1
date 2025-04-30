@@ -2917,11 +2917,14 @@ section,
   .section-title .sectionDescription{font-size: 16px !important;}
   #hideFooter{margin-top: -20%;}
   .mobileBlock{display: block !important; text-align: center;}
-  .hero{padding-top: 100px;}
+  .hero{padding-top: 120px;}
   h1{font-size: 2rem;}
-  .firstIMP{padding-bottom: 10px;display: inline-block;}
-  .hero .btn-get-started, .hero .btn-watch-video{font-size: 20px !important; justify-content: center; margin-top: 20px;}
+  .firstIMP{display: inline-block;}
+  .hero .btn-get-started, .hero .btn-watch-video{font-size: 20px !important; justify-content: center; margin-bottom: 20px;}
   .btn-get-started{width: 90%;}
   .portfolio .portfolio-content .portfolio-info p{font-size: 16px;}
   .jotformDiv{padding: 0; margin-top: 0px;}
+  .hero p{margin: 10px 0; font-size: 16px !important}
+  #animation-container{margin-top: 10px;}
+  #hero .row>*{margin-top: 0;}
 }
