@@ -2921,10 +2921,15 @@ section,
   h1{font-size: 2rem;}
   .firstIMP{display: inline-block;}
   .hero .btn-get-started, .hero .btn-watch-video{font-size: 20px !important; justify-content: center; margin-bottom: 20px;}
-  .btn-get-started{width: 90%;}
+  .btn-get-started{width: 100%;}
   .portfolio .portfolio-content .portfolio-info p{font-size: 16px;}
   .jotformDiv{padding: 0; margin-top: 0px;}
   .hero p{margin: 10px 0; font-size: 16px !important}
-  #animation-container{margin-top: 10px;}
-  #hero .row>*{margin-top: 0;}
+  #animation-container,  #hero .row>*{margin-top: 10px;}
+  .hero .btn-watch-video{margin-left: 0;}
+  .nav-btn, .footer-top .col-6, .footerP{width: 100%; max-width: 100%;}
+  .footer .footer-about .logo img{margin: auto;}
+  .footer .footer-top {padding: 50px 16px 0;}
+  .mobileCenter{text-align: center;}
+  .mobileAuto{margin: auto;}
 }
