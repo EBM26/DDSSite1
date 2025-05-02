@@ -629,6 +629,7 @@ h6 {
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  font-family: var(--nav-font);
 }
 
 .footer .footer-links {
@@ -849,7 +850,7 @@ section,
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -907,7 +908,7 @@ section,
 
 .nav-btn {
   background: var(--nav-color);
-  font-family: var(--heading-font);
+  font-family: var(--default-font);
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;
@@ -929,7 +930,7 @@ section,
 .hero .btn-get-started, li.btn-get-started {
   color: var(--contrast-color);
   background: var(--nav-color);
-  font-family: var(--heading-font);
+  font-family: var(--default-font);
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 1px;
@@ -1138,7 +1139,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 15px 0 0 0;
   margin: 0;
-  font-family: var(--heading-font);
+  font-family: var(--nav-font);
   font-size: 14px;
 }
 
@@ -1339,7 +1340,7 @@ section,
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
-  font-size: 22px;
+  font-size: 30px;
   position: relative;
   display: inline-block;
   border-bottom: 4px solid color-mix(in srgb, var(--heading-color), transparent 90%);
@@ -1399,6 +1400,7 @@ section,
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
+  font-family: var(--nav-font);
 }
 
 .testimonials .testimonial-item h4 {
@@ -1789,6 +1791,7 @@ section,
 .faq .content h3 {
   font-weight: 400;
   font-size: 34px;
+  font-family: var(--nav-font);
 }
 
 .faq .content p {
@@ -1818,6 +1821,7 @@ section,
   cursor: pointer;
   display: flex;
   align-items: flex-start;
+  font-family: var(--nav-font);
 }
 
 .faq .faq-container .faq-item h3 .num {
@@ -1968,6 +1972,7 @@ section,
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
+  font-family: var(--nav-font);
 }
 
 .contact .info-item p, .contact .info-item a {
@@ -2904,6 +2909,8 @@ section,
 #myFixed{background: #fff; padding: 15px 0; text-align: center; display: none;} 
 #myFixed .nav-btn{animation: pulse 1.3s infinite;} 
 .show-now{display: block !important;}
+.portfolio-info  h4, .fontNav{font-family: var(--nav-font);}
+#footer{z-index: 1000000;}
 
 
 /*   My tablet CSS   */

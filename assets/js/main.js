@@ -222,6 +222,7 @@
 
       var nav    = document.querySelector('#myFixed');
       var topDiv   = document.querySelector('#services');
+      var footer  = document.querySelector('#footer');
       var topOfNav = topDiv.offsetTop;
     
         function fixNav() {
