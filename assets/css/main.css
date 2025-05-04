@@ -1982,10 +1982,10 @@ section,
   color: var(--contrast-color) !important;
 }
 
-.contact .info-item:hover i {
+/*.contact .info-item:hover i {
   background: var(--contrast-color);
   color: #172a28;
-}
+}*/
 
 .contact .php-email-form {
   background-color: var(--surface-color);
@@ -2940,4 +2940,6 @@ section,
   .mobileCenter{text-align: center;}
   .mobileAuto{margin: auto;}
   #myFixed{padding: 15px 30px;}
+  .mobileOrder2{order: 2;}
+  #contact{padding-bottom: 80px !important;}
 }
